@@ -6,6 +6,9 @@
     <title>Your Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    
+    <!-- Favicon with SA letters -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNTYiIGhlaWdodD0iMjU2IiB2aWV3Qm94PSIwIDAgMjU2IDI1NiI+CiAgICA8cmVjdCB3aWR0aD0iMjU2IiBoZWlnaHQ9IjI1NiIgZmlsbD0iIzNhODRjMyIgcng9IjUwIiByeT0iNTAiLz4KICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTAwIiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIwLjM1ZW0iPgogICAgICAgIFNBCiAgICA8L3RleHQ+Cjwvc3ZnPg==">
 </head>
 <body class="bg-gray-100 min-h-screen flex items-center justify-center">
     <div class="container mx-auto flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
@@ -18,6 +21,30 @@
                 A brief bio about yourself. Highlight your skills, 
                 passions, and professional interests.
             </p>
+            
+            <!-- Skills Section -->
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold mb-2 border-b-2 border-gray-300">Skills</h3>
+                <div class="flex flex-wrap justify-center gap-2">
+                    <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">Python</span>
+                    <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">JavaScript</span>
+                    <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">React</span>
+                    <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">Django</span>
+                    <span class="bg-blue-100 text-blue-800 text-sm px-2.5 py-0.5 rounded">SQL</span>
+                </div>
+            </div>
+
+            <!-- Education Section -->
+            <div class="mb-4">
+                <h3 class="text-xl font-semibold mb-2 border-b-2 border-gray-300">Education</h3>
+                <div class="text-left">
+                    <div class="mb-2">
+                        <h4 class="font-medium">Bachelor's Degree</h4>
+                        <p class="text-sm text-gray-600">Computer Science</p>
+                        <p class="text-sm text-gray-500">University Name, Graduation Year</p>
+                    </div>
+                </div>
+            </div>
             
             <!-- Social Links -->
             <div class="flex justify-center space-x-4 mt-4">
@@ -32,8 +59,8 @@
                     </svg>
                 </a>
                 <a href="https://t.me/yourusername" target="_blank" class="text-blue-400 hover:text-blue-600">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm4.524 10.248l-4.99 2.648c-.362.191-.819-.132-.819-.536v-2.91c0-.404.457-.727.819-.536l4.99 2.648c.362.191.362.882 0 1.073z"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 496 512" fill="currentColor">
+                        <path d="M248 8C111.033 8 0 119.033 0 256s111.033 248 248 248 248-111.033 248-248S384.967 8 248 8Zm114.952 168.66c-3.732 39.215-19.881 134.536-28.1 178.597-3.476 18.555-10.322 24.816-16.938 25.425-14.4 1.266-25.338-9.524-39.287-18.661 -21.786-14.268-34.171-23.215-55.348-37.18 -24.519-16.151-8.621-25 5.342-39.5 3.652-3.793 67.107-61.51 68.335-66.746 .153-.655 .324-3.1-1.154-4.384s-3.59-.849-5.135-.510c-2.184 .516-36.941 23.492-104.272 67.929 -9.881 6.786-18.841 10.097-26.88 9.931 -8.843-.18-25.746-4.987-38.423-9.103 -15.456-5.03-27.711-7.692-26.681-16.272 .552-4.467 6.342-9.03 17.371-13.691 67.792-29.616 112.896-49.355 135.312-59.217 64.283-26.791 77.722-31.494 86.262-31.666 1.925-.033 6.221 .443 9 2.788 2.341 2.023 2.9 4.75 3.191 6.692 .359 2.394 .849 7.756 .486 12.019Z"/>
                     </svg>
                 </a>
             </div>

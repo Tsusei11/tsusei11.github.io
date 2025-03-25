@@ -12,7 +12,7 @@
 <body class="bg-gray-100 min-h-screen flex items-center justify-center" style="background-image: url(https://cdn.vectorstock.com/i/500p/24/70/technology-communication-seamless-pattern-vector-55242470.jpg)">
     <div class="container mx-auto flex flex-col md:flex-row bg-white shadow-lg rounded-lg overflow-hidden">
         <!-- Left Sidebar -->
-        <div class="w-full md:w-1/3 bg-gray-200 p-6 text-center">
+        <div class="w-full md:w-1/3 bg-gray-200 p-6 text-center" style="user-select: none">
             <img src="/api/placeholder/300/300" alt="Image" class="w-48 h-48 rounded-full mx-auto mb-4 object-cover">
             <h1 class="text-2xl font-bold mb-2">Aliaksei Sihinevich</h1>
             <p class="text-gray-900 mb-4">Aspiring ML Engineer | Computer Science Student</p>
@@ -42,13 +42,12 @@
             <div class="mb-4">
                 <h3 class="text-xl font-semibold mb-2 border-b-2 border-gray-300">Languages</h3>
                 <div class="text-left">
-                    <div class="mb-2">
-                        <h4 class="font-medium">English</h4>
-                        <p class="text-sm text-gray-600">B2</p>
-                    </div>
-                    <div class="mb-2">
-                        <h4 class="font-medium">Polish</h4>
-                        <p class="text-sm text-gray-600">B2</p>
+                    <div class="language">
+                        <div class="language-name">🇬🇧 English</div>
+                        <div class="progress-bar">
+                            <div class="filled"></div><div class="filled"></div><div class="filled"></div>
+                            <div class="filled"></div><div class="filled"></div><div></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -85,7 +84,7 @@
             </div>
 
             <!-- Email Contact -->
-            <div class="mt-6 text-gray-700">
+            <div class="mt-6 text-gray-700" style="user-select: auto;">
                 <p class="text-sm">Email: <a href="mailto:si.aleksey05@gmail.com" class="hover:underline">si.aleksey05@gmail.com</a></p>
             </div>
         </div>

@@ -1,9 +1,8 @@
-/* Custom CSS to complement Tailwind */
 body {
     font-family: 'Arial', sans-serif;
+    background-image: url(https://cdn.vectorstock.com/i/500p/24/70/technology-communication-seamless-pattern-vector-55242470.jpg)
 }
 
-/* You can add more custom styles here */
 .languages {
     max-width: 500px;
     margin: 50px auto;

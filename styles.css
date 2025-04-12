@@ -50,7 +50,7 @@ body {
 
 .dot-bar {
     display: flex;
-    gap: 12px;
+    gap: 11px;
     margin-top: 4px;
 }
 

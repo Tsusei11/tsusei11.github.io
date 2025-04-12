@@ -50,13 +50,13 @@ body {
 
 .dot-bar {
     display: flex;
-    gap: 6px;
+    gap: 12px;
     margin-top: 4px;
 }
 
 .dot {
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     border-radius: 50%;
     background-color: #D1D5DB; /* gray-300 */
 }

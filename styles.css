@@ -47,3 +47,20 @@ body {
 .progress-bar div:hover {
     opacity: 0.8;
 }
+
+.dot-bar {
+    display: flex;
+    gap: 6px;
+    margin-top: 4px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #D1D5DB; /* gray-300 */
+}
+
+.dot.filled {
+    background-color: #1F2937; /* gray-800 */
+}
